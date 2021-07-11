@@ -1,0 +1,3 @@
+[Pagina: 1 ==> X:492, Y:757, Palavra: Calixto, Pagina: 2 ==> X:478, Y:757, Palavra: Rodrigues, Pagina: 3 ==> X:486, Y:757, Palavra: Macedo, Pagina: 4 ==> X:491, Y:757, Palavra: Osasco]
+[Pagina: 1 ==> X:492, Y:82 , Palavra: Calixto, Pagina: 2 ==> X:478, Y:239, Palavra: Rodrigues, Pagina: 3 ==> X:72, Y:82, Palavra: Macedo, Pagina: 4 ==> X:491, Y:374, Palavra: Osasco]
+[Pagina: 1 ==> X:492, Y:82, Palavra: Calixto, Pagina: 2 ==> X:478, Y:239, Palavra: Rodrigues, Pagina: 3 ==> X:72, Y:82, Palavra: Macedo, Pagina: 4 ==> X:491, Y:374, Palavra: Osasco, Pagina: 5 ==> X:72, Y:284, Palavra: BANCO-BV]

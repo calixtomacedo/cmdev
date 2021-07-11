@@ -1,0 +1,4 @@
+br\com\cmdev\dbconnections\tests\TestMySQLConnection.class
+br\com\cmdev\dbconnections\connection\Connection.class
+br\com\cmdev\dbconnections\tests\TestOracleConnection.class
+br\com\cmdev\dbconnections\connection\ConnectionFactory.class
