@@ -4,7 +4,7 @@
 	<artifactId>h2-database</artifactId>
 	<version>1.0.0</version>
 	<name>h2-database</name>
-	<description>Projeto esperimental pra entender um pouco mais sobre o banco H2</description>
+	<description>Projeto experimental pra entender um pouco mais sobre o banco H2</description>
 	
 	
 	<properties>
