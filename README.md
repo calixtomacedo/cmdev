@@ -1,4 +1,5 @@
 # cmdev
+Repositório particular onde eu organizo meus projetos pessoais.
 
 #-1 dbconnections
 - Projeto com Exemplos de conexão com banco de Dados usando JDBC
