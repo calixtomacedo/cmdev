@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: cmdev-jdbi
+    description: Esperimentos com JDBI
+
+server:
+  address: 0.0.0.0
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+management:
+  server:
+    port: 9090
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+
+---
+
+spring:
+  #profiles: local
+  datasource:
+    url: jdbc:mysql://192.168.0.18:3306/sbootapirestdb?useTimezone=true?serverTimezone=UTC?useUnicode=yes?characterEncoding=UTF-8?useSSL=false
+    username: alura
+    password: senha01@Alura
+    driver-class-name: com.mysql.cj.jdbc.Driver
