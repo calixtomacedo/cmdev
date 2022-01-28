@@ -1,7 +1,6 @@
 spring:
   application:
-    name: cmdev-jdbi
-#    description: Esperimentos com JDBI
+    name: sboot-login-app
   main:
     allow-bean-definition-overriding: true
   beaninfo:

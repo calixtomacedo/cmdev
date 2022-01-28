@@ -1,14 +1,13 @@
-package br.com.cmdev.cmdevjdbi;
+package br.com.cmdev.sbootcommysql;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTest {
+class ApplicationTests {
 
 	@Test
-	public void mainTest() {
-		Application.main(new String[] {"Test"});
+	void contextLoads() {
 	}
 
 }

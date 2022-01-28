@@ -1,5 +1,6 @@
 package br.com.cmdev.cmdevjdbi.controller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioService usuarioService;
 	
-	@GetMapping("usuarios")
+	@GetMapping("listar")
 	public List<Usuario> listarUsuario() {
 		
 		List<Usuario> list = usuarioService.listar();
@@ -31,6 +32,7 @@ public class UsuarioController {
 		usuario.setNome("Caio Macedo");
 		usuario.setEmail("caio.macedo@teste.com");
 		usuario.setSenha("123");
+		usuario.setDataCadastro(LocalDateTime.now());
 		
 		usuarioService.salvar(usuario);
 		

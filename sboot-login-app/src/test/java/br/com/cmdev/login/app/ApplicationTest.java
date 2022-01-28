@@ -1,4 +1,4 @@
-package br.com.cmdev.cmdevjdbi;
+package br.com.cmdev.login.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
