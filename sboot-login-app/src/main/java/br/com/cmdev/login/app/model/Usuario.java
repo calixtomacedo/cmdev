@@ -50,5 +50,5 @@ public class Usuario implements Serializable {
 	public void setDataAlteracao(LocalDateTime dataAlteracao) {
 		this.dataAlteracao = dataAlteracao;
 	}
-	
+
 }

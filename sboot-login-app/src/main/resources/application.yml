@@ -29,7 +29,7 @@ spring:
   profiles: 
     active: local
   datasource:
-    url: jdbc:mysql://192.168.0.18:3306/aluradb?useTimezone=true?serverTimezone=UTC?useUnicode=yes?characterEncoding=UTF-8?useSSL=false
-    username: alura_user
-    password: alura@mysql
+    url: jdbc:mysql://localhost:3306/cmdevdb?useTimezone=true?serverTimezone=UTC?useUnicode=yes?characterEncoding=UTF-8?useSSL=false
+    username: cmdev_user
+    password: access01@CMdev
     driver-class-name: com.mysql.cj.jdbc.Driver
